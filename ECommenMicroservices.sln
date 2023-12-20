@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{00471DF6-1CDB-40DD-8E30-C428D099968B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{DBC73CED-D33A-43DA-B3EE-E754026AF086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{89B056E1-6B44-4584-B4DC-028587425AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{00471DF6-1CDB-40DD-8E30-C428D099968B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00471DF6-1CDB-40DD-8E30-C428D099968B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00471DF6-1CDB-40DD-8E30-C428D099968B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B056E1-6B44-4584-B4DC-028587425AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B056E1-6B44-4584-B4DC-028587425AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B056E1-6B44-4584-B4DC-028587425AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B056E1-6B44-4584-B4DC-028587425AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{632F776A-F3DC-4FBB-8113-D74EB830AA9D} = {3040B1E9-D3B2-4641-9AE3-4D05E059ECC7}
 		{295F494A-188B-45B2-B91A-B95AF5644BAC} = {94945978-50EC-467A-B400-B623884986D0}
 		{00471DF6-1CDB-40DD-8E30-C428D099968B} = {F4636593-4990-4E37-ADB6-6E3B0CC0532C}
+		{DBC73CED-D33A-43DA-B3EE-E754026AF086} = {56F14133-B11B-45CA-B84B-EC9E8904B79A}
+		{89B056E1-6B44-4584-B4DC-028587425AC1} = {DBC73CED-D33A-43DA-B3EE-E754026AF086}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C515ABF0-1C23-48BD-9AB4-C8A019D56940}
