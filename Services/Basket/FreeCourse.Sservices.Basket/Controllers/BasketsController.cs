@@ -36,6 +36,5 @@ namespace FreeCourse.Sservices.Basket.Controllers
         {
             return CreateActionResultInstance(await _basketService.Delete(_sharedIdentityService.GetUserId));
         }
-
     }
 }
